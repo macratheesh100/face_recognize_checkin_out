@@ -1,0 +1,39 @@
+{
+  "name": "HotelBooking",
+  "version": "1.0.0",
+  "description": "Hotel Booking",
+  "main": "./app/server",
+  "scripts": {
+    "test": "npm start",
+    "start": "node ./app/server.js",
+    "lint": "standard"
+  },
+  "keywords": [
+    "Hotel Booking"
+  ],
+  "author": "Ratheesh",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/joi": "15.0.3",
+    "bcrypt": "3.0.6",
+    "cors": "2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "8.0.0",
+    "exceljs": "1.11.0",
+    "express": "4.17.0",
+    "image-size": "0.7.4",
+    "js-sha512": "0.8.0",
+    "jsonwebtoken": "8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "2.24.0",
+    "mongodb": "^4.6.0",
+    "mongojs": "2.6.0",
+    "mongoose": "^6.3.4",
+    "multer": "1.4.1",
+    "node-geocoder": "^3.27.0",
+    "random-js": "2.0.0",
+    "request": "2.88.0",
+    "sharp": "0.22.1",
+    "urlencode": "1.1.0"
+  }
+}
